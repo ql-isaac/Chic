@@ -11,7 +11,7 @@ nav:
   About: /about
 
 # favicon
-favicon: /favicon.png
+favicon: https://cdn.jsdelivr.net/gh/ql-isaac/nav-images-1/favicon-s.png
 
 # Profile
 nickname: ql-isaac

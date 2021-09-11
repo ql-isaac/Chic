@@ -13,7 +13,7 @@ categories:
   if (Hls.isSupported()) {
     var video1 = document.getElementById('video1');
     var hls = new Hls();
-    hls.loadSource('https://cdn.jsdelivr.net/gh/ql-isaac/collection-videos-1/如果当时2020/如果当时2020.m3u8');
+    hls.loadSource('https://cdn.jsdelivr.net/gh/isaac-ql/collection-videos-1/如果当时2020/如果当时2020.m3u8');
     hls.attachMedia(video1);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
